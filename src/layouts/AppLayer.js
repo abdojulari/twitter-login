@@ -14,7 +14,7 @@ export default function AppLayer () {
                 <Col xs={12} sm={12} md={6} className="order-1 order-md-2">
                      <UserAccount />
                 </Col>
-                <Col xs={12} sm={12} md={6} className="order-2 order-md-1 ">
+                <Col xs={12} sm={12} md={6} className="order-2 order-md-1 px-0">
                    <LeftSide />
                    <div className="w-100 d-block d-md-none d-sm mb-5 mt-5 d-inline-flex align-items-center">
                       <ControlButton style={{width: '180px'}} />
