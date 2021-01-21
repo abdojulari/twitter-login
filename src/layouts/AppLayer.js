@@ -8,9 +8,8 @@ import ControlButton from '../components/Button'
 
 export default function AppLayer () {
     return (
-        
         <Container fluid className="px-0">
-            <Row className={styles.content}>
+            <Row className="flex-grow-1">
                 <Col xs={12} sm={12} md={6} className="order-1 order-md-2">
                      <UserAccount />
                 </Col>
@@ -25,9 +24,7 @@ export default function AppLayer () {
               <Col xs={12} sm={12} md={12} className="">
                 <Footer />
               </Col>
-                
             </div>
         </Container>
-  
     )
 }
