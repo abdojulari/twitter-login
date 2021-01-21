@@ -1,0 +1,29 @@
+
+@import "../css/variables";
+
+img {
+    width: 70px;
+}
+
+.inline-login {
+      width: 200px;
+      border: 1px solid $twitter;
+      height: 50px;
+      color: $twitter;
+      font-weight: bolder;
+      border-radius: 1.7rem;
+}
+.inline-login:hover{
+    background-color: #f0fbff;
+    color: $twitter;
+ }
+input {
+    height: 60px!important;
+    width: 200px !important;
+}
+input:focus {
+    border: 2px solid $twitter;
+    border-radius: .7rem;
+}
+
+

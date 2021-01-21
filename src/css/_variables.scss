@@ -1,0 +1,77 @@
+// Body background.
+$body-bg: #ffffff;
+
+// Typography.
+$font-family-sans-serif: "Inter", sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1;
+
+// Colors.
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$success: #9ae6b4;
+$twitter: #1da1f2;
+$font-color: #1da1f2;
+
+// Custom theme colors (to be added).
+$theme-colors: ();
+
+// Increase default large border radius.
+$border-radius-lg: 0.6rem;
+$border-radius: .7rem;
+
+// Brighten-up the default text-muted color.
+$text-muted: #a0aec0;
+
+// Font sizes.
+$font-sizes: (
+  2xs: $font-size-base - 0.5,
+  xs: $font-size-base - 0.25,
+  sm: $font-size-base - 0.125,
+  base: $font-size-base,
+  lg: $font-size-base + 0.125,
+  xl: $font-size-base + 0.25,
+  2xl: $font-size-base + 0.5,
+  3xl: $font-size-base + 0.875,
+  4xl: $font-size-base + 1.25,
+  5xl: $font-size-base + 2,
+  6xl: $font-size-base + 2.75,
+  7xl: $font-size-base + 3.5,
+  8xl: $font-size-base + 5,
+  9xl: $font-size-base + 7,
+);
+
+// Letter spacings.
+$letter-spacings: (
+  tighter: -0.05em,
+  tight: -0.025em,
+  normal: 0,
+  wide: 0.025em,
+  wider: 0.05em,
+  widest: 0.1em,
+);
+
+// Border sizes.
+$border-sizes: (
+  0: 0,
+  1: 1px,
+  2: 2px,
+  4: 4px,
+  8: 8px,
+);
+
+// Border styles.
+$border-styles: (solid, dashed, dotted, double, none);
+
+
+
+// Cursors.
+$cursors: (auto, default, pointer, wait, text, move, not-allowed);

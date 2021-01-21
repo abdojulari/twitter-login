@@ -1,0 +1,18 @@
+@import "../css/variables";
+.login{
+    height: 47px;
+    color: $twitter;
+    border-radius: 1.7rem;
+    border: 1px solid $twitter;
+   // width: 380px;
+ }
+ .signup {
+    height: 47px;
+    border-radius: 1.7rem;
+    //width: 380px;
+ }
+ 
+ .inline-login:hover, .login:hover{
+    background-color: #f0fbff;
+    color: $twitter;
+ }
